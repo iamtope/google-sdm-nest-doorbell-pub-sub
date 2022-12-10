@@ -4,7 +4,8 @@
   "description": "google doorbell pub/sub",
   "main": "doorbell.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node doorbell.js"
   },
   "author": "Abass Adamo",
   "license": "ISC",
