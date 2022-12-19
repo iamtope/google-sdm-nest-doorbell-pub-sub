@@ -1,0 +1,6 @@
+runtime: nodejs18
+entrypoint: doorbell.js
+env_variables:
+  GOOGLE_APPLICATION_CREDENTIALS: /config/google-credentials.json
+  PUBSUB_EMULATOR_HOST: localhost:8085
+  PUBSUB_PROJECT_ID: kisi-personal

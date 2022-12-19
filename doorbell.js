@@ -46,6 +46,7 @@ function listenForMessages() {
 
   // Listen for new messages until timeout is hit
   subscription.on("message", messageHandler);
+  console.log(`Listening for messages on ${subscription.name}`);
 
   // setTimeout(() => {
   //   subscription.removeListener("message", messageHandler);
